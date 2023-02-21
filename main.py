@@ -8,7 +8,7 @@ am_flag = False
 idiom_flag = False
 ex_flag = False
 
-
+# PRIVET
 @lru_cache()
 def get_soup(word):
     word = word.replace(' ', '-')
